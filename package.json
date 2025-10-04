@@ -1,0 +1,36 @@
+{
+  "name": "n8n-railway-deployment",
+  "version": "1.0.0",
+  "description": "n8n workflow automation tool deployed on Railway - Free hosting solution",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start",
+    "dev": "n8n start --tunnel",
+    "build": "echo 'No build step required for n8n'",
+    "postinstall": "echo 'n8n installation complete'"
+  },
+  "keywords": [
+    "n8n",
+    "workflow",
+    "automation",
+    "railway",
+    "free-hosting",
+    "no-code"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/n8n-railway-deployment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/n8n-railway-deployment/issues"
+  },
+  "homepage": "https://github.com/yourusername/n8n-railway-deployment#readme"
+}
